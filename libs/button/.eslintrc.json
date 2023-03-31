@@ -16,11 +16,12 @@
         "@angular-eslint/component-selector": [
           "error",
           {
-            "type": "element",
+            "type": ["element", "attribute"],
             "prefix": "byt",
             "style": "kebab-case"
           }
-        ]
+        ],
+        "@angular-eslint/no-host-metadata-property": "off"
       },
       "extends": [
         "plugin:@nrwl/nx/angular",
