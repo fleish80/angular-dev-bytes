@@ -26,13 +26,13 @@ NegativePrimary.args = {
   color: 'negative'
 }
 
-// export const Primary = () => ({
-//   // render: (args: BytButtonComponent) => ({
-//   //   props: args,
-//   // }),
-//   // args: {},
-//   moduleMetadata: {
-//     imports: [BytButtonComponent]
-//   },
-//   template: `<button byt-button>Primary</button>`
-// });
+// export const PrimaryAnother = {
+//   render: (args: BytButtonComponent) => ({
+//     props: args,
+//   }),
+//   args: {color: 'primary'},
+//   // moduleMetadata: {
+//   //   imports: [BytButtonComponent]
+//   // },
+//   // template: `<button byt-button [color]="color">Primary</button>`
+// };
